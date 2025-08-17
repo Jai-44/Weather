@@ -1,0 +1,32 @@
+.mainSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    padding-top: 3vh;
+}
+.searchcity,.searchcountry,.searchstate{
+    font-size: 24px;
+    margin: 2px;
+}
+.submitbut{
+    font-size: 18px;
+    width: 84px;
+    border-radius: 4px;
+    margin-top: 3vh;
+    text-align: center;
+}
+.submitbut:hover{
+    background-color: rgb(207, 192, 192);
+}
+.finalres{
+    margin-top: 3vh;
+    font-weight: 400;
+    font-size: 36px;
+    font-family: sans-serif;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 16vh;
+    margin-bottom: 4vh;
+    background-color: antiquewhite;
+}
